@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Traveloka Mini - Pesan Tiket & Hotel</title>
+    <!-- Murni HTML tanpa CSS -->
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <!-- Logo Universitas (contoh placeholder) -->
+        <img src="https://via.placeholder.com/80x80?text=LOGO" alt="Logo Traveloka" width="80" height="80">
+        <h1>Traveloka Mini</h1>
+        <p>Teman Perjalananmu</p>
+    </header>
+
+    <hr>
+
+    <!-- NAVIGASI -->
+    <nav>
+        <ul>
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Hotel</a></li>
+            <li><a href="#">Pesawat</a></li>
+            <li><a href="#">Atraksi</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <!-- KONTEN UTAMA -->
+    <main>
+        <!-- Marquee novelty: kutipan perjalanan -->
+        <marquee direction="left" scrollamount="5">
+            🌍 “Jalan-jalan adalah investasi terbaik untuk jiwa.” — Anonim | ✈️ “Dunia itu luas, jangan hanya diam di tempat.” | 🏝️ “Cari pengalaman, bukan sekadar barang.”
+        </marquee>
+
+        <!-- Gambar Hero -->
+        <h2>Destinasi Impian</h2>
+        <img src="https://via.placeholder.com/600x200?text=Pantai+Indah" alt="Pantai Indah" width="600" height="200">
+
+        <!-- Tabel Paket Wisata -->
+        <h3>Paket Wisata Populer</h3>
+        <table border="1" cellpadding="8" cellspacing="0">
+            <tr>
+                <th>Destinasi</th>
+                <th>Harga Mulai</th>
+                <th>Durasi</th>
+                <th>Rating</th>
+            </tr>
+            <tr>
+                <td>Bali, Indonesia</td>
+                <td>Rp 2.500.000</td>
+                <td>3 Hari 2 Malam</td>
+                <td>★★★★★</td>
+            </tr>
+            <tr>
+                <td>Yogyakarta</td>
+                <td>Rp 1.200.000</td>
+                <td>2 Hari 1 Malam</td>
+                <td>★★★★☆</td>
+            </tr>
+            <tr>
+                <td>Raja Ampat</td>
+                <td>Rp 5.800.000</td>
+                <td>4 Hari 3 Malam</td>
+                <td>★★★★★</td>
+            </tr>
+        </table>
+
+        <!-- Hyperlink ke situs Traveloka asli -->
+        <p>Lihat lebih banyak di: <a href="https://www.traveloka.com" target="_blank">Traveloka.com</a></p>
+
+        <!-- Formulir Pemesanan (minimal 1 form) -->
+        <h3 id="contact">Form Pemesanan / Kontak</h3>
+        <form action="#" method="get">
+            <label for="nama">Nama Lengkap:</label><br>
+            <input type="text" id="nama" name="nama" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="destinasi">Pilih Destinasi:</label><br>
+            <select id="destinasi" name="destinasi">
+                <option value="bali">Bali</option>
+                <option value="jogja">Yogyakarta</option>
+                <option value="rajaampat">Raja Ampat</option>
+            </select><br><br>
+
+            <label for="tanggal">Tanggal Keberangkatan:</label><br>
+            <input type="date" id="tanggal" name="tanggal"><br><br>
+
+            <label for="pesan">Pesan Tambahan:</label><br>
+            <textarea id="pesan" name="pesan" rows="3" cols="40"></textarea><br><br>
+
+            <button type="submit">Kirim Pemesanan</button>
+        </form>
+    </main>
+
+    <hr>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Traveloka Mini. Dibuat untuk UTS Perancangan & Pemrograman Web.</p>
+    </footer>
+
+</body>
+</html>
